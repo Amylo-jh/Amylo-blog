@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+type: pages
 title: "어바웃"
 layouts_gallery:
  - url: /assets/images/about/amylo_nohands.png
