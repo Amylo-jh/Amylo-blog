@@ -4,6 +4,7 @@ categories:
   - 일기
 tags:
   - 일기
+  - 블로그
 last_modified_at: 2021-06-12T01:07
 ---
 
