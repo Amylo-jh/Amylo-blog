@@ -18,7 +18,7 @@ comments: true
 toc : ture
 toc_label: "목차"
 ---
-작성 시작일 : 2021.06.27
+나스가 있어도, 없어도 내 블로그를 만들어 보는건 어떨까요?
 
 # Installing Jekyll using Docker at Synology NAS
 참조한 사이트 :  
@@ -54,3 +54,6 @@ toc_label: "목차"
 
 {% include gallery id="docker_registry" caption="도커 레지스트리" %}
 
+
+
+작성 시작일 : 2021.06.27
