@@ -15,15 +15,17 @@ docker_registry:
   image_path: /assets/images/jekyll_howto/docker_registry.png
 last_modified_at: 2021-07-03T23:50
 comments: true
+toc : ture
+toc_label: "목차"
 ---
 작성 시작일 : 2021.06.27
 
 # Installing Jekyll using Docker at Synology NAS
 참조한 사이트 :  
-1. https://blog.actin.kr/devlog/2019/08/14/synology-docker-jekyll/
-2. http://webcache.googleusercontent.com/search?q=cache:ev9ddroF55MJ:www.ripudblog.com/skills/2020/08/22/Synology_docker%25EC%2597%2590_jekyll_install%25ED%2595%2598%25EA%25B8%25B0.html+&cd=2&hl=ko&ct=clnk&gl=kr
+1. [Synology nas에서 docker를 이용한 jekyll 사용하기](https://blog.actin.kr/devlog/2019/08/14/synology-docker-jekyll/)
+2. [Synology docker에 jekyll install하기](http://webcache.googleusercontent.com/search?q=cache:ev9ddroF55MJ:www.ripudblog.com/skills/2020/08/22/Synology_docker%25EC%2597%2590_jekyll_install%25ED%2595%2598%25EA%25B8%25B0.html+&cd=2&hl=ko&ct=clnk&gl=kr)
 *(캐시된 사이트, 1번 사이트의 부가설명)*
-3. minimal mistakes
+3. [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 4. 
 
 ## 남는 나스를 활용하자!
@@ -47,7 +49,7 @@ comments: true
 (사용환경 : DS918+)  
 우선 Synology Package Manager에서 Docker를 설치해 줍니다.
 아마 Docker를 위한 공유 폴더가 만들어질 겁니다.
-이후 Docker를 실행하여 레지스트리에서 Jekyll을 검색하여 해당 이미지를 다운받아 줍니다.
+이후 Docker를 실행하여 레지스트리에서 Jekyll을 검색하여 해당 이미지를 다운받아 줍니다.  
 (글 작성 시점에서는 DSM 7.0을 설치하여 DSM 6.2버전과는 다르게 보일 수 있으나 기본 구성은 동일합니다.)
 
 {% include gallery id="docker_registry" caption="도커 레지스트리" %}
