@@ -26,10 +26,13 @@ toc_sticky : true
 1. [Synology nas에서 docker를 이용한 jekyll 사용하기](https://blog.actin.kr/devlog/2019/08/14/synology-docker-jekyll/)
 2. [Synology docker에 jekyll install하기](http://webcache.googleusercontent.com/search?q=cache:ev9ddroF55MJ:www.ripudblog.com/skills/2020/08/22/Synology_docker%25EC%2597%2590_jekyll_install%25ED%2595%2598%25EA%25B8%25B0.html+&cd=2&hl=ko&ct=clnk&gl=kr)
 *(캐시된 사이트, 1번 사이트의 부가설명)*
-3. [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+3. [Minimal Mistakes 테마](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+4. [git hook 설정하기](https://jesse.sh/deploys-with-git-and-jekyll/)
 4. [_config.yml 수정하기 / Navigation 설정하기](https://junhobaik.github.io/jekyll-apply-theme/)
 5. [favicon 추가하기](https://frhyme.github.io/blog/jekyll_add_Favicon/)
 6. [콘텐츠 영역 너비 조정하기](https://eona1301.github.io/github_blog/GithubBlog-Content-Width/)
+7. [Markdown 사용방법](https://ansohxxn.github.io/blog/markdown/)
+8. [liquid 사용방법](https://ansohxxn.github.io/blog/liquid/)
 
 ## 남는 나스를 활용하자!
 단순히 jekyll 블로그를 만들기 위해서라면 github에서 제공하는 서비스를 활용하여 할 수도 있지만 집에서 놀고 있는 Nas를 활용하여 개인 블로그를 만들어 보고 싶었다.
