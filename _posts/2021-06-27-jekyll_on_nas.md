@@ -27,7 +27,9 @@ toc_sticky : true
 2. [Synology docker에 jekyll install하기](http://webcache.googleusercontent.com/search?q=cache:ev9ddroF55MJ:www.ripudblog.com/skills/2020/08/22/Synology_docker%25EC%2597%2590_jekyll_install%25ED%2595%2598%25EA%25B8%25B0.html+&cd=2&hl=ko&ct=clnk&gl=kr)
 *(캐시된 사이트, 1번 사이트의 부가설명)*
 3. [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-4. [favicon 추가하기](https://frhyme.github.io/blog/jekyll_add_Favicon/)
+4. [_config.yml 수정하기 / Navigation 설정하기](https://junhobaik.github.io/jekyll-apply-theme/)
+5. [favicon 추가하기](https://frhyme.github.io/blog/jekyll_add_Favicon/)
+6. [콘텐츠 영역 너비 조정하기](https://eona1301.github.io/github_blog/GithubBlog-Content-Width/)
 
 ## 남는 나스를 활용하자!
 단순히 jekyll 블로그를 만들기 위해서라면 github에서 제공하는 서비스를 활용하여 할 수도 있지만 집에서 놀고 있는 Nas를 활용하여 개인 블로그를 만들어 보고 싶었다.
@@ -42,9 +44,12 @@ toc_sticky : true
 1. Docker에 Jekyll 이미지 받기
 2. Jekyll 테마 고르기 (Minimal-Mistakes 기준)
 3. Dockerfile 작성 / 빌드
-4. _config.yml 설정하기
-5. https, 역방향 프록시 적용하기
-6. 
+4. Git 서버 구축
+5. Git 로컬 구축 / Hook 설정
+6. _config.yml 설정하기
+7. 네비게이션 메뉴 설정하기
+8. https / 역방향 프록시 적용하기
+9. 
 
 ## Docker에 Jekyll 이미지 받기
 (사용환경 : DS918+)  
