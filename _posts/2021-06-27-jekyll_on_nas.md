@@ -15,8 +15,9 @@ docker_registry:
   image_path: /assets/images/jekyll_howto/docker_registry.png
 last_modified_at: 2021-07-03T23:50
 comments: true
-toc : ture
+toc : true
 toc_label: "목차"
+toc_sticky : true
 ---
 나스가 있어도, 없어도 내 블로그를 만들어 보는건 어떨까요?
 
@@ -26,7 +27,7 @@ toc_label: "목차"
 2. [Synology docker에 jekyll install하기](http://webcache.googleusercontent.com/search?q=cache:ev9ddroF55MJ:www.ripudblog.com/skills/2020/08/22/Synology_docker%25EC%2597%2590_jekyll_install%25ED%2595%2598%25EA%25B8%25B0.html+&cd=2&hl=ko&ct=clnk&gl=kr)
 *(캐시된 사이트, 1번 사이트의 부가설명)*
 3. [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-4. 
+4. [favicon 추가하기](https://frhyme.github.io/blog/jekyll_add_Favicon/)
 
 ## 남는 나스를 활용하자!
 단순히 jekyll 블로그를 만들기 위해서라면 github에서 제공하는 서비스를 활용하여 할 수도 있지만 집에서 놀고 있는 Nas를 활용하여 개인 블로그를 만들어 보고 싶었다.
