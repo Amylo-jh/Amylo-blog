@@ -1,5 +1,5 @@
 ---
-title: "(작성중) Synology Nas에 Docker로 Jekyll 블로그 만들기"
+title: "(WIP) Synology Nas에 Docker로 Jekyll 블로그 만들기"
 categories:
  - Jekyll
 tags:
