@@ -1,5 +1,5 @@
 ---
-title: "(작성중)유용한 프로그램 모음"
+title: "(작성중) 유용한 프로그램 모음"
 categories:
  - Utility
 tags:
