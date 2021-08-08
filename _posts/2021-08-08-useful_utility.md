@@ -13,9 +13,9 @@ last_modified_at: 2021-08-08T23:15
 
 # Programs
 ## 1. Everything
-제작사 : voidtools
-유형 : 프리웨어
-링크 : https://www.voidtools.com/ko-kr/downloads/
+제작사 : voidtools  
+유형 : 프리웨어  
+링크 : https://www.voidtools.com/ko-kr/downloads/  
 
 ![Everything_search_gif]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Everything_search.gif)
 
@@ -26,9 +26,9 @@ last_modified_at: 2021-08-08T23:15
 매우 가볍고, 빠른데다가, 네트워크 위치 검색과 풍부한 검색 옵션까지 제공한다.
 
 ## 2. Bandizip
-제작사 : Bandisoft
-유형 : 무료/상용 소프트웨어
-링크 : https://kr.bandisoft.com/bandizip/
+제작사 : Bandisoft  
+유형 : 무료/상용 소프트웨어  
+링크 : https://kr.bandisoft.com/bandizip/  
 
 ![Bandizip]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Bandizip.png)
 
@@ -36,9 +36,9 @@ last_modified_at: 2021-08-08T23:15
 포맷 후 설치할 필수 프로그램.
 
 ## 3. EarTrumpet
-제작사 : File-New-Project
-유형 : 무료
-링크 : https://www.microsoft.com/ko-kr/p/eartrumpet/9nblggh516xp?activetab=pivot:overviewtab
+제작사 : File-New-Project  
+유형 : 무료  
+링크 : https://www.microsoft.com/ko-kr/p/eartrumpet/9nblggh516xp?activetab=pivot:overviewtab  
 
 ![EarTrumpet]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/EarTrumpet.jpg)
 
@@ -47,9 +47,9 @@ last_modified_at: 2021-08-08T23:15
 오디오 인터페이스가 여러개 있어도 빠르게 조절 가능하다.
 
 ## 4. WFDownloader
-제작사 : WFDownloader
-유형 : 무료
-링크 : https://www.wfdownloader.xyz/download
+제작사 : WFDownloader  
+유형 : 무료  
+링크 : https://www.wfdownloader.xyz/download  
 
 ![WFDownloader]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/WFDownloader.png)
 
@@ -57,9 +57,9 @@ last_modified_at: 2021-08-08T23:15
 웹사이트에서 한번에 많은 사진을 받아야 할 때 사용하기 좋다.
 
 ## 5. qBittorrent
-제작사 : https://github.com/qbittorrent/qBittorrent
-유형 : 무료 / GPLv2+
-링크 : https://www.qbittorrent.org/download.php
+제작사 : https://github.com/qbittorrent/qBittorrent  
+유형 : 무료 / GPLv2+  
+링크 : https://www.qbittorrent.org/download.php  
 
 ![qBittorrent]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/qBittorrent.png)
 
@@ -68,9 +68,9 @@ last_modified_at: 2021-08-08T23:15
 다른 클라이언트에는 광고 또는 채굴프로그램이 같이 딸려 오기도 한다.
 
 ## 6. Iriun Webcam
-제작사 : Iriun
-유형 : 무료/상용 프로그램
-링크 : https://iriun.com/
+제작사 : Iriun  
+유형 : 무료/상용 프로그램  
+링크 : https://iriun.com/  
 
 ![Iriun_webcam]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Iriun_webcam.png)
 
@@ -81,9 +81,9 @@ obs에 연결하여 사용할 수도 있고, 디스코드 화상통화에도 연
 다만 사용시 휴대폰의 발열과 배터리 사용량에 유의해야 한다.
 
 ## 7. RaiDrive
-제작사 : OpenBoxLab.Inc
-유형 : 무료/상용 프로그램
-링크 : https://www.raidrive.com/
+제작사 : OpenBoxLab.Inc  
+유형 : 무료/상용 프로그램  
+링크 : https://www.raidrive.com/  
 
 ![RaiDrive]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/RaiDrive.png)
 
@@ -94,7 +94,7 @@ NAS를 사용중이라면 더더욱 추천한다.
 위의 Everything과 연계하여 사용하기에도 좋다.
 
 ## 8. OBS Studio (Open Broadcaster Software)
-제작사 : 
+제작사 :   
 
 ---
 <mark style='background-color: #dcffe4'>
