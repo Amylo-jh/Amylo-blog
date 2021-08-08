@@ -67,7 +67,7 @@ last_modified_at: 2021-08-08T23:15
 유형 : 무료/상용 프로그램
 링크 : https://iriun.com/
 
-![Iriun_webcam]]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Iriun_webcam.png)
+![Iriun_webcam]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Iriun_webcam.png)
 
 Android/iOS 스마트폰에 앱을 설치하여 pc 웹캠으로 활용할 수 있도록 해 준다.
 pc에 웹캠이 필요한데 없거나 꼭 살 필요까지는 없을때 대용품으로 쓰기에 괜찮다.
@@ -80,7 +80,7 @@ obs에 연결하여 사용할 수도 있고, 디스코드 화상통화에도 연
 유형 : 무료/상용 프로그램
 링크 : https://www.raidrive.com/
 
-![RaiDrive]]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/RaiDrive.png)
+![RaiDrive]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/RaiDrive.png)
 
 NAS를 사용중이라면 더더욱 추천한다. 다양한 클라우드 서비스 및 파일 전송 프로토콜을 지원하여 윈도 파일 탐색기에서 네트워크 드라이브로 매핑하여 사용할 수 있게 해 준다.
 무료 버전으로도 충분히 쓸만한 성능은 나오는것 같아 아직 유료 버전까지는 사용하지 않았다.
