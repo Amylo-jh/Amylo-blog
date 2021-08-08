@@ -17,7 +17,7 @@ last_modified_at: 2021-08-08T23:15
 유형 : 프리웨어
 링크 : https://www.voidtools.com/ko-kr/downloads/
 
-![everything_search_gif]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Everything_search.gif)
+![Everything_search_gif]({{ site.url }}{{ site.baseurl }}/assets/images/useful_utility/Everything_search.gif)
 
 위의 gif파일에서 볼 수 있듯이, 윈도우에서 끔찍하게 느린 파일 탐색기의 검색 기능은 everything을 사용하기 시작하면 다시는 쓰지 않게 될 것이다.
 초보자들도 사용하기에 매우 편리해 누구에게나 추천한다.
