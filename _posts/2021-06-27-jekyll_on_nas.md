@@ -13,11 +13,10 @@ tags:
 docker_registry:
 - url: /assets/images/jekyll_howto/docker_registry.png
   image_path: /assets/images/jekyll_howto/docker_registry.png
-last_modified_at: 2021-07-03T23:50
-comments: true
 toc : true
 toc_label: "목차"
 toc_sticky : true
+last_modified_at: 2021-07-03T23:50
 ---
 나스가 있어도, 없어도 내 블로그를 만들어 보는건 어떨까요?
 
@@ -66,3 +65,5 @@ toc_sticky : true
 
 
 작성 시작일 : 2021.06.27
+
+**글에 오류가 있거나 궁금한 것, 의견 등이 있으면 자유롭게 댓글로 달아주시면 감사하겠습니다!**
