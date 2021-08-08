@@ -15,14 +15,6 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-/* 210809 add title color fix */
-$title-color: #C382FF !default;
-
-.page__title{
-   color: $title-color;
-}
-
-
 /* dirt syntax highlighting (base16) */
 $base00: #231e18 !default;
 $base01: #302b25 !default;
@@ -40,3 +32,10 @@ $base0c: #6eb958 !default;
 $base0d: #88a4d3 !default;
 $base0e: #bb90e2 !default;
 $base0f: #b49368 !default;
+
+/* 210809 add title color fix */
+$title-color: #C382FF !default;
+
+.page__title{
+   color: $title-color;
+}
