@@ -9,15 +9,21 @@ toc: true
 toc_label: "목차"
 toc_sticky: true
 last_modified_at: 2021-09-05T15:25
+
+gallery:
+ - url: /assets/images/Fold2_update/edge_flashlight
+   image_path: /assets/images/Fold2_update/edge_flashlight.png
+   title: "edge_flashlight_1"
+ - url: /assets/images/Fold2_update/edge_flashlight2
+   image_path: /assets/images/Fold2_update/edge_flashlight2.png
+   title: "edge_flashlight_2"
+
+gallery2:
+ - url: 
 ---
 업데이트 후 무엇이 달라졌을까요?
 
-[바로 맛보러 갑니다(Twitter)](https://twitter.com/Amylo_/status/1432750710433583113)
-
 <blockquote class="twitter-tweet"><p lang="ko" dir="ltr">바로 맛보러 갑니다 <a href="https://t.co/asRMiXuNlS">pic.twitter.com/asRMiXuNlS</a></p>&mdash; Amylo (@Amylo_) <a href="https://twitter.com/Amylo_/status/1432750710433583113?ref_src=twsrc%5Etfw">August 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
 
 새벽에 발견한 업데이트 소식을 듣고 바로 업데이트를 했어요. 새로운 기능에 있는 내용과 사용하면서 생각나는 후기를 적어 보았습니다.
 
@@ -29,6 +35,8 @@ last_modified_at: 2021-09-05T15:25
 동일한 레이아웃으로 사용할 수 있는 옵션이 추가된 건 좋은 것 같아요. 저는 이전에 내/외부 화면 홈을 다 세팅해 놓은 이후라 그냥 두었지만요.
 
 ## 3. Edge 패널
+
+{% include gallery caption ="변경된 Edge 패널." %}
 
 ![edge_flashlight]({{ site.url }}{{ site.baseurl }}/assets/images/Fold2_update/edge_flashlight.png)  
 이건 좀 차이가 컸어요.  
