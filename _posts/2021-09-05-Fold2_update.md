@@ -50,7 +50,7 @@ gallery5:
 새로운 기능에 있는 내용과 사용하면서 생각나는 후기를 적어 보았습니다.
 
 ## 0. 업데이트 내역
-{% include gallery id="gallery4" caption ="업데이트 내역." %}
+{% include gallery id="gallery4" layout="half" caption ="업데이트 내역." %}
 
 ## 1. 멀티윈도우
 사실 잘 모르겠어요.  
