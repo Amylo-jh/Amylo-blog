@@ -38,7 +38,7 @@ gallery5:
    image_path: /assets/images/Fold2_update/application_screen_ratio_1.png
    title: "application screen ratio 1"
  - url : /assets/images/Fold2_update/application_screen_ratio_2.png
-   image_path : /assets/images/Fold2_update/application_screen_ratio_1.png
+   image_path : /assets/images/Fold2_update/application_screen_ratio_2.png
    title: "application screen ratio 2"
 
 ---
