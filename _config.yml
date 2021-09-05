@@ -75,7 +75,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-F4CJXD6217"
+    tracking_id          : G-F4CJXD6217
     anonymize_ip         : # true, false (default)
 
 
@@ -268,6 +268,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   - scope:
       path: ""
       type: pages
