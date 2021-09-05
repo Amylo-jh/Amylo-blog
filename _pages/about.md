@@ -39,4 +39,4 @@ Work Experiences
 외부 사이트, 연락수단
 
 
-{% include gallery id="layouts_gallery" caption="프사 테스트." %}
+{% include gallery caption="프사 테스트." %}
