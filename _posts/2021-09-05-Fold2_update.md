@@ -11,10 +11,10 @@ toc_sticky: true
 last_modified_at: 2021-09-05T15:25
 
 gallery:
- - url: /assets/images/Fold2_update/edge_flashlight
+ - url: /assets/images/Fold2_update/edge_flashlight.png
    image_path: /assets/images/Fold2_update/edge_flashlight.png
    title: "edge_flashlight_1"
- - url: /assets/images/Fold2_update/edge_flashlight2
+ - url: /assets/images/Fold2_update/edge_flashlight2.png
    image_path: /assets/images/Fold2_update/edge_flashlight2.png
    title: "edge_flashlight_2"
 
