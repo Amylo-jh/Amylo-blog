@@ -33,6 +33,10 @@ last_modified_at: 2021-07-03T23:50
 7. [Markdown 사용방법](https://ansohxxn.github.io/blog/markdown/)
 8. [liquid 사용방법](https://ansohxxn.github.io/blog/liquid/)
 
+미분류 :
+[google analytics 적용방법](https://jhlov.github.io/jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-google-analytics-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/)
+[사이드바 추가하기](https://jhlov.github.io/jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%97%90-%EC%82%AC%EC%9D%B4%EB%93%9C%EB%B0%94-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/)
+
 ## 남는 나스를 활용하자!
 단순히 jekyll 블로그를 만들기 위해서라면 github에서 제공하는 서비스를 활용하여 할 수도 있지만 집에서 놀고 있는 Nas를 활용하여 개인 블로그를 만들어 보고 싶었다.
 
