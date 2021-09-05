@@ -12,7 +12,12 @@ last_modified_at: 2021-09-05T15:25
 ---
 업데이트 후 무엇이 달라졌을까요?
 
-[https://twitter.com/Amylo_/status/1432750710433583113](https://twitter.com/Amylo_/status/1432750710433583113)
+[바로 맛보러 갑니다(Twitter)](https://twitter.com/Amylo_/status/1432750710433583113)
+
+<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">바로 맛보러 갑니다 <a href="https://t.co/asRMiXuNlS">pic.twitter.com/asRMiXuNlS</a></p>&mdash; Amylo (@Amylo_) <a href="https://twitter.com/Amylo_/status/1432750710433583113?ref_src=twsrc%5Etfw">August 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
 
 새벽에 발견한 업데이트 소식을 듣고 바로 업데이트를 했어요. 새로운 기능에 있는 내용과 사용하면서 생각나는 후기를 적어 보았습니다.
 
