@@ -12,7 +12,7 @@ last_modified_at: 2021-09-05T15:25
 ---
 업데이트 후 무엇이 달라졌을까요?
 
-https://twitter.com/Amylo_/status/1432750710433583113
+[https://twitter.com/Amylo_/status/1432750710433583113](https://twitter.com/Amylo_/status/1432750710433583113)
 
 새벽에 발견한 업데이트 소식을 듣고 바로 업데이트를 했어요. 새로운 기능에 있는 내용과 사용하면서 생각나는 후기를 적어 보았습니다.
 
