@@ -20,7 +20,7 @@ gallery:
 
 gallery2:
  - url: /assets/images/Fold2_update/taskbar.png
-   image_paht: /assets/images/Fold2_update/taskbar.png
+   image_path: /assets/images/Fold2_update/taskbar.png
    title: "taskbar"
 
 
