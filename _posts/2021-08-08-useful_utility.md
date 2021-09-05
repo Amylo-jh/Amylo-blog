@@ -23,7 +23,8 @@ last_modified_at: 2021-08-08T23:15
 윈도우에서 끔찍하게 느린 파일 탐색기의 검색 기능을 능가한다.   
 입력하는 즉시 반응하는 놀라운 검색 속도를 보여 주고,
 초보자들도 사용하기에 매우 편리해 누구에게나 추천한다.  
-매우 가볍고, 빠른데다가, 네트워크 위치 검색과 풍부한 검색 옵션까지 제공한다.
+매우 가볍고, 빠른데다가, 네트워크 위치 검색과 풍부한 검색 옵션까지 제공한다.  
+<b>개인적으로 매우 추천한다.</b>
 
 ## 2. Bandizip
 제작사 : Bandisoft  
@@ -55,6 +56,8 @@ last_modified_at: 2021-08-08T23:15
 
 아직 많이 사용은 안 해봤지만, 크롤러 기능도 겸하고 있는 사진 다운로더이다.  
 웹사이트에서 한번에 많은 사진을 받아야 할 때 사용하기 좋다.
+로그인이 필요한 사이트에서도 크롬 확장 플러그인을 이용해 쿠키를 추출, 적용하여 이미지를 받을 수 있다.  
+방법은 공식 홈페이지 [쿠키를 WFDownloader로 불러오는 방법 (영문)](https://www.wfdownloader.xyz/tutorial/how-to-import-browser-cookies-into-wfdownloader-app)을 참고하기 바란다. 많이 어렵지는 않다. 
 
 ## 5. qBittorrent
 제작사 : https://github.com/qbittorrent/qBittorrent  
