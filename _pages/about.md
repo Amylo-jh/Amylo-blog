@@ -53,7 +53,7 @@ Interested in :
 <!-- - 항공전자정비기능사 / `17.06.23 ~` -->
 
 # 🔒 기타 / etc
- - [**](https://amylo-jh.github.io/Freedom-remain-time/)
+ - [타이머](https://amylo-jh.github.io/Freedom-remain-time/)
 
 <!--
 주요 경험 이력
