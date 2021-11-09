@@ -7,7 +7,7 @@ title: "About Me / CV"
 gallery:
  - url: /assets/images/about/amylo_nohands.png
    image_path: /assets/images/about/amylo_nohands.png
-last_modified_at: 2021-09-23T00:09
+last_modified_at: 2021-11-10T00:00
 ---
 <!-- 
 안녕하세요! ---가 하고 싶은 개발자 -입니다.
