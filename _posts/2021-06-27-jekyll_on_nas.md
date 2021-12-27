@@ -32,6 +32,7 @@ last_modified_at: 2021-07-03T23:50
 6. [콘텐츠 영역 너비 조정하기](https://eona1301.github.io/github_blog/GithubBlog-Content-Width/)
 7. [Markdown 사용방법](https://ansohxxn.github.io/blog/markdown/)
 8. [liquid 사용방법](https://ansohxxn.github.io/blog/liquid/)
+9. [Hits, 조회수 사용방법](https://choiseonjae.github.io/jekyll/hits/)
 
 미분류 :  
 
