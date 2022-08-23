@@ -308,6 +308,7 @@ int main()
 그런 다음, F5 키를 눌렀을 때 코드에 문제가 없다면,
 
 하단 터미널 탭에서 hello world! 출력이 잘 나오는 것을 확인할 수 있습니다.
+빌드되어 생성된 exe 파일은 build 폴더 밑에 cpp 파일명으로 생성된 것을 확인할 수 있습니다.
 
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%2030.png)
 
