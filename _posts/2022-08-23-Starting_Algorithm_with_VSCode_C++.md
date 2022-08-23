@@ -123,11 +123,11 @@ ex) C:\mingw64
 
 잘 되었는지 확인하려면, Win+R, cmd를 여신 다음에,
 
-gcc `--`version
+gcc ----version
 
-g++ `--`version
+g++ ----version
 
-gdb `--`version
+gdb ----version
 
 을 입력하고, 엔터 치셨을 때 
 
