@@ -1,7 +1,7 @@
 ---
 title : "VSCode로 C++ 개발 환경 구축하기 (알고리즘)"
 categories :
- - Guide
+ - Algorithm
 tags :
  - Guide
  - VSCode
