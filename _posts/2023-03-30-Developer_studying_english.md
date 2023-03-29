@@ -19,12 +19,10 @@ last_modified_at: 2023-03-30T00:45
 - 실천하기 위해 영문 기술 블로그 문서를 읽는 것도 중요하지만, 마음에 드는 문서를 한글로 번역하여 보는 것도 좋을것 같음.
 
 # 도움이 되는 확장 프로그램
-- Google 번역 확장 프로그램
-  - https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+- [Google 번역 확장 프로그램](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
   - 짧은 문장 단위는 드래그해서 번역 보기에 편리  
  
-- 네이버 영어사전 확장 프로그램
-  - https://chrome.google.com/webstore/detail/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%98%81%EC%96%B4%EC%82%AC%EC%A0%84-naver-english-di/jfibpeiddefellcfgnijpcpddoimbdij
+- [네이버 영어사전 확장 프로그램](https://chrome.google.com/webstore/detail/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%98%81%EC%96%B4%EC%82%AC%EC%A0%84-naver-english-di/jfibpeiddefellcfgnijpcpddoimbdij)
   - 더블클릭시 단어 뜻 바로 보기에 편리
 
 # 팟캐스트 들어볼것
