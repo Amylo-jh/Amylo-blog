@@ -26,8 +26,8 @@ last_modified_at: 2023-03-30T00:45
   - 더블클릭시 단어 뜻 바로 보기에 편리
 
 # 팟캐스트 들어볼것
-- https://syntax.fm/
-- https://changelog.com/
+- [https://syntax.fm/](https://syntax.fm/)
+- [https://changelog.com/](https://changelog.com/)
 - 해외에서 실제 프로젝트에 사용되는 개발 관련 영어 표현을 익히기에 적합
 - 추후 들어보기
 
