@@ -4,6 +4,9 @@ categories:
  - Web Scrap
 tags:
  - 웹 스크랩
+toc : true
+toc_label : "목차"
+toc_sticky : true
 last_modified_at: 2023-03-30T00:45
 ---
 
