@@ -114,8 +114,6 @@ body {
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
-
-    /* 20230611 줄간격 1 -> 2로 변경*/
     line-height: 2;
 
     /* sibling indentation*/
