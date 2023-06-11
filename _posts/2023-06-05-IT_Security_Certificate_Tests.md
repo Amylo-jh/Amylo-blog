@@ -72,8 +72,8 @@ IT / 보안 분야에서 도움이 될 만한 자격증과 시험 목록 정리.
   - 산업기사 실기 : 20800원
   - 기사 실기 : 22600원
 
-![산업기사 응시조건](../assets/images/IT_Security_Certificate_Tests/image_2.png "산업기사 응시조건")
-![기사 응시조건](../assets/images/IT_Security_Certificate_Tests/image_1.png "기사 응시조건")
+![산업기사 응시조건](/assets/images/IT_Security_Certificate_Tests/image_2.png "산업기사 응시조건")
+![기사 응시조건](/assets/images/IT_Security_Certificate_Tests/image_1.png "기사 응시조건")
 
 이 자격증도 정보처리기능사와 마찬가지로 딸 수 있으면 반드시 따자.
 관련 대학 학과를 다니고 있거나, 졸업하였다면 취업 시 가점이 될 확률이 높은 자격증이고, 경력이라면 각종 평가요소 또는 이직에도 유리할 수 있다.  
