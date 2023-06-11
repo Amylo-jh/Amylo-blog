@@ -70,7 +70,7 @@ body {
 
 .page__title {
   margin-top: 0;
-  line-height: 2;
+  line-height: 1;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -105,7 +105,7 @@ body {
 		}
 	}
 
-  p,
+  p ,
   li,
   dl {
     font-size: 1em;
@@ -114,6 +114,9 @@ body {
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+
+    /* 20230611 줄간격 1 -> 2로 변경*/
+    line-height: 2;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
