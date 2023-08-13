@@ -11,7 +11,7 @@ toc_sticky: true
 last_modified_at: 2023-08-08T15:49
 ---
 
-- 도서 정보 : [yes24 링크](https://image.yes24.com/goods/109028085/XL
+- 도서 정보 : [yes24 링크](https://www.yes24.com/Product/Goods/109028085
 )
 - 도서 분류 : 인문학
 - 작가 : 조성익
