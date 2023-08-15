@@ -19,6 +19,7 @@ last_modified_at: 2023-08-15T20:02
 	- Obsidian 앱은 플레이 스토어에서 설치해 주시면 됩니다.
 - Obsidian 메모 저장소로 사용할 Github Repo
 - 예상 소요 시간 : 15~30분
+
 # 요구사항
 - 데스크톱에 이미 옵시디언을 설치하고, vault를 생성 후 깃헙과 연동한 상태를 전제로 시작합니다.
 	- 정상 작동 테스트용으로 아무 마크다운 파일을 하나 넣고 내용을 조금 입력해 두는 것을 권장합니다.
@@ -31,7 +32,9 @@ last_modified_at: 2023-08-15T20:02
 	- .obsidian/app.json
 - Termux 앱의 가장 최신 버전을 설치해 줍니다. 보안 경고가 뜨지만 무시하기를 누르고 설치해 줍니다.
 	- https://github.com/termux/termux-app/releases
+
 # Termux 세팅
+
 ## 패키지 세팅
 - Termux 앱을 실행합니다.
 - 현재 설치된 패키지를 업데이트 하기 위해 커맨드라인에 다음 명령을 입력합니다.
@@ -41,6 +44,7 @@ last_modified_at: 2023-08-15T20:02
 - 커맨드라인에 다음 명령을 입력합니다.
 	- pkg install git
 		- Y를 한번 눌러 줘야 할 수 있습니다.
+
 ## Termux 권한 및 Git setting
 - Termux에서 다음 명령어를 입력합니다.
 	- termux-setup-storage
@@ -55,6 +59,7 @@ last_modified_at: 2023-08-15T20:02
 	- cd ~/storage/shared/Documents
 - 이후 깃헙에서 미리 준비한 파일들을 클론합니다.
 	- git clone <깃 레포 주소.git>
+
 # Github Access Token 설정
 - Github - Setting - Developer setting - Personal access tokens - Fine-graned tokens 로 이동해 줍니다.
 - Generate New Token으로 새로운 토큰을 만들어 줍니다.
@@ -67,11 +72,13 @@ last_modified_at: 2023-08-15T20:02
 		- Pull Requests : Read and Write
 - 위 설정이 끝나면 Generate Token으로 토큰을 생성해 줍니다.
 - 생성 이후 나오는 토큰 코드가 나오는 화면은 해당 화면을 벗어나면 다시 볼 수 없고, 재생성만 할 수 있으므로 해당 값을 복사해서 잠시 메모해 둡니다.- 
+
 # Obsidian Vault 폴더 설정
 - 안드로이드에 설치한 Obsidian 앱을 켜면, 처음에 파일 접근 권한을 요구합니다. 승인해 줍니다.
 - Open folder as vault를 선택후, 깃헙 레포를 클론한 폴더를 선택해 줍니다.
 	- 테스트 파일을 만들었다면, 해당 파일이 보이는 곳으로 간다면 성공입니다.
 	- 이후 폴더 내용을 신뢰할 것인지 물어 봅니다. 신뢰한다고 해 줍니다.
+
 # Obsidian 앱 내 Extension 설정
 - Community Plugins 에서 다음의 플러그인들을 설치 및 활성화 해 줍니다.
 	- Obsidian Git
@@ -100,6 +107,7 @@ last_modified_at: 2023-08-15T20:02
 		- Auther email for commit
 			- 사용 중인 이메일 주소를 입력해 줍니다.
 - 위 설정이 모두 끝나면 뒤로가기를 눌러 설정을 마무리 해 줍니다.
+
 # 단축키 설정 (선택)
 - 매번 5분을 기다리거나 수동으로 깃 커밋, 풀, 푸시하기 귀찮으니 단축키를 매핑하여 즉시작업을 수행할 수 있도록 해 줍니다.
 - 안드로이드 옵시디언 - 설정 - Hotkeys 에서 git 이라고 검색하면 git 확장과 관련된 단축키 옵션만 나옵니다.
@@ -107,6 +115,7 @@ last_modified_at: 2023-08-15T20:02
 	- Obsidian Git : Pull : Ctrl + Shift + L (Load)
 	- Obsidian Git : Push : Ctrl + Shift + P (Push)
 	- 를 추천드립니다.
+
 # Git Troubleshooting
 - 간혹 git에서 merge가 불가능하거나, pull, push가 안 되는 상황이 발생할 수 있습니다.
 - 아직 저도 완벽한 해결 방안을 찾지는 못했지만, 그때그때 상황에 따라 인터넷을 참고하여 conflict를 고치고 있습니다.
