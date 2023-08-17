@@ -2,12 +2,12 @@
 title : "VSCode로 C++ 개발 환경 구축하기 (알고리즘)"
 categories :
  - Algorithm
- - Tutorials
 tags :
  - Guide
  - VSCode
  - Algorithm
  - C++
+ - Tutorials
 toc : true
 toc_label : "목차"
 toc_sticky : true
