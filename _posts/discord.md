@@ -1,4 +1,5 @@
 ---
+title: "discord domain auth"
 categories :
 .well-known
 ---
