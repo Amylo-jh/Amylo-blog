@@ -44,6 +44,7 @@ Interested in :
 <br>
 
 # 📜 자격증
+ - AWS Solution Architect - Associate (SAA-C03) / `23.11.16 ~ 26.11.16`
  - CISSP Associate / `23.06.17 ~ `
  - 정보보안기사 / `22.05.27 ~`
  - 정보처리기사 / `21.06.02 ~`
