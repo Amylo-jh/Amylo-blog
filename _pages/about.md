@@ -31,7 +31,6 @@ Interested in :
 # 🎓 학력 / Education
  - `2015.03 ~ 2018.03` : **"secret"** High School / **정보통신과**
  - `2024.02.23` : bachelor's degree / 독학사, 컴퓨터공학
- - ㅁㄴㅇㄹ
 
 <br>
 
