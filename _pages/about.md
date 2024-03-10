@@ -30,6 +30,8 @@ Interested in :
 
 # 🎓 학력 / Education
  - `2015.03 ~ 2018.03` : **"secret"** High School / **정보통신과**
+ - `2024.02.23` : bachelor's degree / 독학사, 컴퓨터공학
+
 <br>
 
 # 💼 경력 / Work Experience
@@ -40,12 +42,12 @@ Interested in :
  - `Windows Server Operating` / 초급 / AD 구성을 이해하고, Hyper-V, 그룹 정책, 네트워크 등을 구성할 수 있습니다.
  - `Powershell` / 초급 / 작성된 스크립트를 이해하고 기초적인 스크립트를 작성할 수 있습니다.
  - `Docker` / 입문 / 기초적인 Docker 스크립트를 이해하고 간단한 컨테이너를 구동할 수 있습니다. 
- - `C++` / 입문 / 기초적인 C++ 문법을 이해하고 기본적인 알고리즘을 이용한 문제 풀이를 할 수 있습니다.
+ - `C++` / 초급 / 기초적인 C++ 문법을 이해하고 기본적인 알고리즘을 이용한 문제 풀이를 할 수 있습니다.
 <br>
 
 # 📜 자격증
+ - CISSP / `24.04.01 ~ 27.03.31`
  - AWS Solution Architect - Associate (SAA-C03) / `23.11.16 ~ 26.11.16`
- - CISSP Associate / `23.06.17 ~ `
  - 정보보안기사 / `22.05.27 ~`
  - 정보처리기사 / `21.06.02 ~`
  - Comptia Security+ / `18.10.25 ~ 24.10.25`  
