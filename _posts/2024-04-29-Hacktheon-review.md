@@ -56,7 +56,7 @@ ChatGPT에 돌려 보았다.
 저 꺾쇠 괄호부터 시작해서 끝까지 복사한 다음, CyberChef에서 From Hex 필터를 거치면 디코딩된 자바스크립트 코드가 나온다.
 
 나온 코드를 크롬 F12로 콘솔에서 실행하면 결과로 PK 로 시작하는 문자열이 나오는데,
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/(20240427093846.png)
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427093846.png)
 나온 결과를 ChatGPT에 돌려봤더니 PK는 Zip 파일의 시그니처라고 한다.
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/image-2.png)
 그래서 다시 "UEsDBA"로 시작하는 것을 파이썬 코드를 이용하여 바이너리 파일로 만들고자 다음과 같은 코드를 짰다.
@@ -78,7 +78,7 @@ with open(file_name, "wb") as file:
 print("파일이 성공적으로 작성되었습니다.")
 ```
 그러자 example.zip이 나왔고, 열어보니 word라는 폴더가 있어 워드 파일이라는 것을 알아챘고, 
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review//assets/images/Hacktheon-review/20240427094152.png)
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427094152.png)
 확장자를 zip에서 doc으로 바꿔 열면 플래그를 볼 수 있다.
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427094226.png)
 
@@ -100,8 +100,8 @@ Event Log Explorer 프로그램을 체험판으로 사용하여 빠르게 검색
 Rumor 1에서 이어지는 문제이다.
 앞으로 이어지는 Rumor 문제들은 모두 Rumor 1에서 받은 파일을 활용하여 풀 수 있다.
 이번 문제에서는 공격자가 pc를 감염시킨 후 세션 연결을 위해 실행시킨 프로세스의 pid를 찾으라고 하였다.
-Rumor 1에서 찾은 이벤트를 뒤로 쭉 탐색하면서 모르는 프로그램이 실행되면 검색해 오다가, 예전에 본 적 있는 것 같은 취약점 글을 보았다.
-참조 : https://blog.naver.com/best_somansa/222839504756
+Rumor 1에서 찾은 이벤트를 뒤로 쭉 탐색하면서 모르는 프로그램이 실행되면 검색해 오다가, 예전에 본 적 있는 것 같은 취약점 글을 보았다. <br>
+참조 : [https://blog.naver.com/best_somansa/222839504756](https://blog.naver.com/best_somansa/222839504756)<br>
 MS Office 제로데이 취약점으로, sdiagnhost.exe를 사용하여 nc64.exe를 실행시킨다.
 
 pid가 2624라는 것은 역시 이벤트 로그에는 대놓고 나오지 않지만 ChatGPT에 돌려 보았더니 저 부분에 있는 숫자가 pid를 의미한다고 하여 알 수 있었다.
@@ -139,7 +139,8 @@ pid가 2624라는 것은 역시 이벤트 로그에는 대놓고 나오지 않�
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427170415.png)
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427170429.png)
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427170447.png)
-사용한 툴 : https://github.com/sherlly/PCRT
+<br>
+사용한 툴 : [https://github.com/sherlly/PCRT](https://github.com/sherlly/PCRT)<br>
 이것 말고도 이것저것 찾아서 써보긴 했다.
 python 2.7과 pip 버전을 python3와 같이 깔아서 쓸 때 주의점을 잘 몰라서 좀 애먹었다.
 
