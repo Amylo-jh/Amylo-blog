@@ -78,7 +78,7 @@ with open(file_name, "wb") as file:
 print("파일이 성공적으로 작성되었습니다.")
 ```
 그러자 example.zip이 나왔고, 열어보니 word라는 폴더가 있어 워드 파일이라는 것을 알아챘고, 
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427094152.png)
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427094152.png)<br>
 확장자를 zip에서 doc으로 바꿔 열면 플래그를 볼 수 있다.
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Hacktheon-review/20240427094226.png)
 
