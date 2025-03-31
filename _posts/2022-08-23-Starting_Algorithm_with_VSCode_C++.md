@@ -11,139 +11,88 @@ tags :
 toc : true
 toc_label : "목차"
 toc_sticky : true
-last_modified_at : 2022-08-23T19:40
+last_modified_at : 2025-03-31T02:30
 ---
-Windows + VSCode + C++ 개발 환경 구축 Guide
+Windows + VSCode + C++ 개발 환경 구축 Guide (2025년 3월 Updated)
 
 안녕하세요.
 오늘은 윈도우에서 VSCode로 C++ 개발 환경을 구축하는 방법에 대해 포스팅하려고 해요.
-
 저는 알고리즘 문제를 풀때 주력 언어로 C++을 사용하고 있어요.
-
 환경 설정하는데 시간은 넉넉하게 1시간 정도 걸려요.
 
 사용할 환경입니다.
-
 - Windows
 - VSCode
 - C++ (MinGW)
 
 설치 순서
-
 1. MinGW 설치
-2. MinGW 수동 설치 (필요시)
-3. MinGW Path 설정
-4. VSCode 설치
-5. VSCode Extension 설치
-6. VSCode C++ 빌드 및 디버깅 환경 설정
-7. 이외 알고리즘 연습에 도움되는 vscode extension 설치
-8. Baekjoon Online Judge 및 Solved.ac 둘러보기 (TBD)
-9. GitHub 연동 (TBD)
+2. MinGW Path 설정
+3. VSCode 설치
+4. VSCode Extension 설치
+5. VSCode C++ 빌드 및 디버깅 환경 설정
+6. 이외 알고리즘 연습에 도움되는 vscode extension 설치
+7. Baekjoon Online Judge 및 Solved.ac 둘러보기 (TBD)
+8. GitHub 연동 (TBD)
+
+# 0. 주의사항
+<mark>경로에 한글이 포함되어 있으면 빌드/디버깅 시 오류가 발생할 수 있습니다!!</mark>
+특히 바탕화면에 폴더를 만들어 사용하게 되면, 사용자명이 한글일 경우 경로에 한글이 포함되어 IDE가 해당 경로를 제대로 인식하지 못할 수 있습니다.
+윈도우 사용자 폴더 이름 변경 방법 등을 검색하여 경로상에서 한글을 제거하거나, (ex: C:/Users/Amylo/Desktop/Dev)
+혹은 드라이브 최상위 영역에 새로 폴더를 만들어 그 곳에서 개발을 시작하셔도 좋습니다. (ex: C:/Dev)
 
 # 1. MinGW 설치
-
 윈도우용 GCC, MinGW를 설치하기 위해 구글에 MinGW를 검색하세요.
-
 요즈음 대부분의 PC가 64비트 운영체제이기 때문에 64비트 기준으로 설명하겠습니다.
-
 (본인의 컴퓨터 운영체제가 64비트인지 확인하려면, 설정 - 정보에서 시스템 종류 정보를 확인하세요.)
-
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled.png)
 
-[MinGW-w64를 검색하시면 나오는 웹사이트](https://www.mingw-w64.org/) 에 접속해 주시고, 
+[MinGW-w64를 검색하시면 나오는 웹사이트](https://www.mingw-w64.org/)에 접속해 주시고, 옆의 메뉴 또는 사이드바에서 `Downloads - Pre-built Toolchains`로 이동해 줍니다.
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/스크린샷 2025-03-31 오후 4.06.51.png)
 
-옆의 메뉴 또는 사이드바에서  Downloads로 이동해 줍니다.
+밑으로 스크롤을 내리다 보면 `MinGW-W64-builds` 항목이 있는데, 여기에 있는 Installation Github 링크로 이동해 줍니다.
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/스크린샷 2025-03-31 오후 4.29.01.png)
 
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%201.png)
-
-밑으로 스크롤을 내리다 보면 Sources 항목이 있는데, 그 중 SourceForge 링크로 이동해 줍니다.
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%202.png)
-
-그러면 아래와 같은 웹사이트가 나옵니다.
-
-역시 스크롤을 좀 많이 내리다 보면, 
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%203.png)
-
-MinGW-W64 Online Installer 다운로드 링크가 있습니다.
-
-MinGW-W64-Install.exe를 눌러 파일을 받아 줍니다.
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%204.png)
-
-다운로드 받은 파일 설치를 시작해 줍시다.
-
-이후 세팅에서 Architecture를 i686에서 x86-64로 바꿔주세요. (64비트로 설치하겠다는 의미입니다.)
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%205.png)
-
-여기에서 설치를 진행하다가 오류가 날 수 있습니다. (사진 참고)
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%206.png)
-
-이렇게 되면 MinGW 수동설치를 진행해 주셔야 합니다.
-
-오류가 안 나시면 MinGW 수동설치 부분은 건너 뛰시면 됩니다.
-
-# 2. MinGW 수동설치 (필요시)
-
-위와 같은 오류가 발생하면 인스톨러를 닫아 주시고,
-
-MinGW 인스톨러를 받았던 곳 밑에 x86-64-win32-seh 파일을 다운받아 주세요.
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%207.png)
+그러면 깃헙에서 최신 버전의 mingw가 빌드된 바이너리 파일을 받을 수 있는 웹사이트가 나옵니다.
+여기에서 받아야 하는 파일은 다음과 같습니다.
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/스크린샷 2025-03-31 오후 4.31.23.png)
+x86-64는 빌드 환경이 64비트 컴퓨터이기 때문이고,
+win32는 빌드한 프로그램을 윈도우에서만(POSIX 호환을 고려하지 않는) 실행할 예정이기 때문이고,
+seh는 C++의 예외 처리 방식을 의미하는데, 윈도우에서 가장 성능이 좋은 방식이기 때문입니다.
+ucrt를 고르는 이유는 msvcrt는 Win7 이하의 구버전 호환성을 고려할 필요가 없다면, 최신 윈도우 환경에서 더 나은 성능과 안정성을 제공하기 때문입니다.
 
 파일 다운로드가 완료되고 나면 압축 프로그램을 이용해 해당 압축파일을 풀어 줍니다.
-
 압축 해제 후 나온 mingw64 폴더를 폴더째로 C드라이브 밑에 옮겨 주세요.
+`ex) C:\mingw64`
+mingw64 폴더 밑에는 bin 폴더가 있어야 하고, bin 폴더 밑에는 g++.exe 파일이 있어야 합니다.
+![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/스크린샷 2025-03-31 오후 4.45.53.png)
 
-ex) C:\mingw64
-
-![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%208.png)
-
-여기까지 완료했다면 MinGW 수동 설치는 끝났습니다.
+여기까지 완료했다면 MinGW 설치는 끝났습니다.
 
 # 3. MinGW Path 설정
-
 이제 설치된 MinGW를 환경변수, Path에 등록해 줄 건데요, 이 작업은 VSCode에서 컴파일 할 때 사용할 g++ 파일을 VSCode가 찾아서 쓸 수 있게 해 주는 작업이에요.
-
 그러면 Win+R을 눌러 실행창을 띄우고, sysdm.cpl 을 친 다음 엔터를 하시면 시스템 속성 창이 뜰 텐데,
-
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%209.png)
 
 고급 - 환경 변수로 가 주시고, 
-
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%2010.png)
 
 시스템 변수에서 Path를 찾은 다음, 저것을 더블 클릭 하시고,
-
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%2011.png)
 
 뜨는 창에서 mingw64\bin 경로를 등록, 확인 해 주시면 됩니다.
-
 잘 되었는지 확인하려면, Win+R, cmd를 여신 다음에,
-
-gcc \-\-version
-
-g++ \-\-version
-
-gdb \-\-version
-
-을 입력하고, 엔터 치셨을 때 
-
-이런 식으로, 관련 정보가 떠야 정상입니다.
-
+`gcc \-\-version`
+`g++ \-\-version`
+`gdb \-\-version`
+을 입력하고, 엔터 치셨을 때 하단 사진과 같이 관련 정보가 떠야 정상입니다.
 ![Untitled]({{ site.url }}{{ site.baseurl }}/assets/images/Starting_Algorithm/Untitled%2012.png)
 
-만약 설치나 설정이 잘못 되었다면, ‘gcc’ 은(는) 내부 또는 외부 명령, 실행할~~ 뭐시기가 뜨면서 정보가 뜨지 않습니다.
-
+만약 설치나 설정이 잘못 되었다면, `‘gcc’ 은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.` 라는 메시지가 표시되면서 프로그램이 동작하지 않습니다.
 환경 변수 설정이나 폴더명에서 오타가 난 것은 없는지 다시 확인해 주세요.
-
 또는 C:/mingw64/bin/g++.exe 파일이 경로에 있는지 확인해 주세요.
 
 # 4. VSCode 설치
-
 에디터로 사용할 VSCode를 설치해 봅시다.
 
 vscode : [https://code.visualstudio.com/](https://code.visualstudio.com/) 에서 설치 파일을 받아 주세요.
