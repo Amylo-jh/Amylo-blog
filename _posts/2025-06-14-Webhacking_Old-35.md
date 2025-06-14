@@ -26,7 +26,7 @@ Webhacking.kr old-35 문제풀이
 # 문제 탐색
 - 문제 메인 화면은 다음과 같다.
 	- 전화번호를 입력할 수 있는 칸이 있고, add 버튼으로 추가할 수 있다.
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/Webhacking.kr/old-44/Pasted image 20250511024720.png)
+![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/Webhacking.kr/old-35/Pasted image 20250511024720.png)
 
 - view-source 버튼을 누르면 소스 코드를 볼 수 있다. 소스 코드는 다음과 같다.
 
@@ -149,5 +149,5 @@ insert into chall35(id, ip, phone) values('guest', '111.117.xxx.xxx', 1234), ('a
 - 위 쿼리가 실행되면, DB에는 두 개의 행이 저장되고, 뒤따르는 admin IP가 현재 접속한 사용자 IP와 일치하는지 검증하는 코드 실행시 결과값이 참이 되어 `solve(35)` 함수가 실행, 플래그를 얻을 수 있다.
 
 # 결과
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/Webhacking.kr/old-44/Pasted image 20250510203752.png)
+![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/Webhacking.kr/old-35/Pasted image 20250510203752.png)
 
