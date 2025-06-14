@@ -28,6 +28,7 @@ Webhacking.kr old-44 문제풀이
 	- 이름을 입력할 수 있는 칸이 있고, submit 버튼으로 제출할 수 있다.
 ![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/Webhacking.kr/old-44/Pasted image 20250512192558.png)
 - view-source 버튼을 누르면 소스 코드를 볼 수 있다. 소스 코드는 다음과 같다.
+
 ```php
 <?php
 if ($_GET["view_source"]) {
